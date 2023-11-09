@@ -1,0 +1,53 @@
+header {
+    background-color: white;
+
+    .fuentesNav {
+
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    .tamLogo {
+        width: 275px;
+    }
+
+    .encabezado {
+        border-top: 20px solid black;
+        background-color: #fafafa;
+    }
+    
+}
+
+h1 {
+    color: $color--principal ;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+.imagenesCarrusel {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.cardsMusicos {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+
+.card-body {
+    border: black;
+    margin-inline-end: 5px;
+}
+
+.form-control {
+    background-color: #cbcbcb;
+}
